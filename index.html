@@ -17,12 +17,17 @@
     <header>
         <h1 class="text-center">Phone Gunner</h1>
     </header>
-    <main>
+    <main class="container">
         <div class="input-group mb-3 w-50 mx-auto">
             <input id="search-field" type="text" class="form-control" placeholder="search the phone you want "
                 aria-label="search the phone you want" aria-describedby="button-addon2">
             <button onclick="searchPhone()" class="btn btn-outline-success" type="button"
                 id="button-search">Search</button>
+        </div>
+        <div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 " id="phone-details">
+
+            </div>
         </div>
     </main>
     <script src="js/phone.js"></script>
